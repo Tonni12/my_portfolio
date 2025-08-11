@@ -1,0 +1,9 @@
+Middlewares
+Preprocessing: body-parser
+Logging: morgan
+
+custom middleware
+app.use((req, res, next) => {
+	console.log("Request method: ", req.method;
+	next();
+});
